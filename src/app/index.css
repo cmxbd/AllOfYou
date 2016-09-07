@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-top {
+    display: inline;
+}
+
+.content .large-header {
+    background-image: url(img/demo-1-bg.jpg);
+}
+
+.left-side {
+    width: 52px;
+    background-color: #2376bd;
+}
+.left-side ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.left-side ul li {
+    text-align: center;
+    padding: 10px;
+}
+.left-side ul li:hover {
+    background-color: gray;
+}
+.left-side ul li a {
+    display: block;
+}
