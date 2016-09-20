@@ -5,39 +5,22 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>ALL OF YOU</title>
 </head>
-<body>
-    <div>
+<body bgcolor="gray">
+    <div class="content">
         <!-- 页面背景 -->
-        <div class="content">
-            <div class="large-header">
-                <canvas id="backGround"></canvas>
-            </div>
-        </div>
+        <canvas id="backGround"></canvas>
         <!-- 页面头部 -->
         <div class="head-top">
-            <ul>
-                <li><img src="img/logo.png" width="52px" height="52px" /></li>
-            </ul>
         </div>
         <!-- 页面左侧 -->
         <div class="left-side">
-            <ul>
-                <li><a href="index.html"><img src="img/home.png" alt="Home"/></a></li>
-                <li><a href="index.html"><img src="img/1.png" alt="Music"></a></li>
-                <li><a href="index.html"><img src="img/2.png" alt="Email"></a></li>
-                <li><a href="index.html"><img src="img/3.png" alt="Example"></a></li>
-                <li><a href="index.html"><img src="img/4.png" alt="Video"></a></li>
-                <li><a href="index.html"><img src="img/5.png" alt="History"></a></li>
-                <li><a href="index.html"><img src="img/6.png" alt="Calendar"></a></li>
-                <li><a href="index.html"><img src="img/7.png" alt="Link"></a></li>
-                <li><a href="index.html"><img src="img/8.png" alt="Rss"></a></li>
-                <li><a href="index.html"><img src="img/9.png" alt="Rss2"></a></li>
-                <li><a href="index.html"><img src="img/10.png" alt="Rss2"></a></li>
-                <li><a href="index.html"><img src="img/11.png" alt="Rss2"></a></li>
-                <li><a href="index.html"><img src="img/12.png" alt="Rss2"></a></li>
-            </ul>
         </div>
     </div>
-    <script type="text/javascript" src="index.js"></script>
+
+    <!-- lib引用 -->
+    <script src="../../lib/js/TweenLite.min.js"></script>
+    <script src="../../lib/js/EasePack.min.js"></script>
+    <!-- src引用 -->
+    <script type="text/javascript" src="index_background.js"></script>
 </body>
 </html>
