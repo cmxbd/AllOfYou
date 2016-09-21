@@ -97,7 +97,7 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-// Canvas manipulation
+// 初始化三角形与绘制
 function Triangle() {
     var _this = this;
 
